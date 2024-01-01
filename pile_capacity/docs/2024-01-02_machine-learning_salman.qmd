@@ -1,0 +1,48 @@
+---
+title: "Predicting Vertical Pile Capacity Using Machine Learning"
+subtitle: "The aim is to reproduce machine learning tools to predict axial vertical pile capacity using published data"
+author:
+  - name: "Salman Mazhar"
+    id: M.SM
+    orcid: 0000-0002-0422-5616
+    email: smazhar@gmail.com
+    affiliation:
+      - name: Bangladesh University of Engineering and Technology
+        affiliation-url: https://www.buet.ac.bd/web/#/
+        url: www.github.com/mazzhar
+
+date: last-modified
+output:
+  quarto::html_document:
+    toc: true
+    number_sections: true
+execute:
+  echo: false
+  warning: false
+citation: true
+keywords:     
+  - Predictive Modelling
+  - Axial Pile Capacity
+  - Driven Pile
+  - Cohesionless Soils
+
+title-block-banner: true
+funding: "The author received no specific funding for this work."
+bibliography: references.bib
+---
+
+# Data
+
+The data (@kiefa1998)is related to static axial pile bearing capacity of driven piles in cohesionless soils. This data is available from a [Google Sheets Link](https://docs.google.com/spreadsheets/d/1RLZnzPlrNTE-lc5i7PksTh1FLS17zDiK/edit?usp=drive_link&ouid=101570136312241133136&rtpof=true&sd=true%3E). The database includes:
+
+1.  Angle of shear resistance of soil at the shaft, $\phi_{shaft}$.
+
+2.  Angle of shear resistance of soil at the tip, $\phi_{tip}$
+
+3.  Effective Overburden pressure, $\sigma_{v}$.
+
+4.  Length of pile, $L$ in meters.
+
+5.  Cross-sectional Area, $A$.
+
+6.  Total pile capacity, $Q_{u}$.
